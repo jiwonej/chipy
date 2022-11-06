@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/chipy/static/css/main.073c9b0a.css",
+    "main.js": "/chipy/static/js/main.6adfed2b.js",
+    "static/js/787.d6861264.chunk.js": "/chipy/static/js/787.d6861264.chunk.js",
+    "static/media/logo.svg": "/chipy/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/chipy/index.html",
+    "main.073c9b0a.css.map": "/chipy/static/css/main.073c9b0a.css.map",
+    "main.6adfed2b.js.map": "/chipy/static/js/main.6adfed2b.js.map",
+    "787.d6861264.chunk.js.map": "/chipy/static/js/787.d6861264.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.6adfed2b.js"
+  ]
+}
