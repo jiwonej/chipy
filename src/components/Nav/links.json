@@ -1,0 +1,12 @@
+{
+    "links": [
+        {
+            "label": "COLLECTION",
+            "href": "/collection"
+        },
+        {
+            "label": "ABOUT US",
+            "href": "/about-us"
+        }
+    ]
+}
