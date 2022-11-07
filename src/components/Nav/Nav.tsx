@@ -30,7 +30,7 @@ const Nav: React.FC<{}> = () => {
   return (
     <nav className={styles.navbar}>
         <div className={styles['logo-container']}>
-          <a href='/home'>
+          <a href='/'>
             <img src={logo} className={styles['logo']} alt="logo"></img>
           </a>
         </div>
