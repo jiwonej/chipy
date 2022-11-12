@@ -1,0 +1,19 @@
+<svg width="479" height="479" viewBox="0 0 479 479" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_f_45_38)">
+<path d="M409 239.5C409 333.112 333.112 409 239.5 409C145.888 409 70 333.112 70 239.5C70 145.888 145.888 70 239.5 70C333.112 70 409 145.888 409 239.5Z" fill="#3A00A7" fill-opacity="0.5"/>
+</g>
+<path d="M341.122 267.427C341.122 314.554 298.658 355.086 245.318 355.086C191.978 355.086 148.35 314.554 148.35 267.427C148.35 220.299 191.978 193.343 245.318 193.343C298.658 193.343 341.122 220.299 341.122 267.427Z" fill="#ADADAD"/>
+<ellipse cx="245.5" cy="264" rx="96.5" ry="74" fill="#D9D9D9"/>
+<path d="M316.589 234.654C322.292 249.774 304.067 270.648 275.884 281.276C247.7 291.905 220.231 288.264 214.528 273.144C208.826 258.023 227.051 237.15 255.234 226.521C283.417 215.892 310.887 219.534 316.589 234.654Z" fill="#878787"/>
+<ellipse cx="238.724" cy="209.634" rx="57.7929" ry="74.4714" fill="#A8E0F1"/>
+<ellipse cx="233.294" cy="204.592" rx="53.1384" ry="69.4291" fill="#B4EDFF"/>
+<path d="M183.5 181L196.5 189.5L210 184L218 173.5L234 178L242 167.5H251.5M251.5 167.5V155.5L263 142.5M251.5 167.5L266 184H282.5L285 196L297 207.5" stroke="#696969"/>
+<path d="M265.5 184L255 194L254 206.5M254 206.5L244.5 202L227 207.5M254 206.5L260 212L267.5 206.5L279 212" stroke="#696969"/>
+<defs>
+<filter id="filter0_f_45_38" x="0" y="0" width="479" height="479" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="35" result="effect1_foregroundBlur_45_38"/>
+</filter>
+</defs>
+</svg>

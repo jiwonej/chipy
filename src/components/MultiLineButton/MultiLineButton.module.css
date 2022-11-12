@@ -1,0 +1,26 @@
+.button {
+    width: 180px;
+    height: 70px;
+    padding: 16px 32px;
+    border-radius: 20px;
+    background: #B4EDFF;
+    border: 0;
+    box-shadow: 0 5px 0 #65A1B4;
+    overflow: hidden;
+}
+
+.button:hover {
+    background: #96DDF3;
+}
+
+.button:active {
+    background: #96DDF3;
+    box-shadow: 0 2px 0 #65A1B4;
+    transform: translateY(2px);
+}
+
+.button-text {
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}

@@ -1,0 +1,143 @@
+@media only screen and (max-width: 752px) {
+    /* For mobile phones & tablets: */
+    .one-r-two-cc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .one-r-two-cc-padding {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 752px) {
+    /* For desktop: */
+    .one-r-two-cc {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .one-r-two-cc-padding {
+        margin: 0 40px;
+    }
+}
+
+
+.one-r-two-cc h2 {
+    max-width: 485px;
+    margin: 0;
+}
+
+.one-r-two-cc-padding {
+    padding: 0 40px;
+}
+
+
+
+
+.intro-section {
+    display: flex;
+    flex-wrap: wrap;
+    /* max-width: 900px; */
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 5em;
+}
+
+.intro-container {
+    width: 300px;
+    flex-grow: 1;
+}
+
+.intro-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* .intro-container {
+    width: 60%;
+    height: 60%;
+    flex: 1 0 auto;
+} */
+/* .intro-img-container {
+    flex: 1 1 0px;
+    justify-content: end;
+    width: 0;
+}
+
+.intro-text-container {
+    flex: 1 1 0px;
+    width: 0;
+} */
+
+/* .intro-container img {
+   width: 80%;
+   height: 80%;
+   object-fit: cover;
+} */
+
+/* .dialog {
+    background:#FEF4BD;
+    border-radius: 40px;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 64px;
+    line-height: 40px;
+} */
+
+.roadmap-section {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: space-between;
+    column-gap: 5em; */
+    background-color: black;
+}
+
+.roadmap-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 5em;
+
+}
+
+
+
+.columns {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.profile {
+    height: auto;
+    width: auto;
+    max-height: 480px;
+    max-width: 480px;
+}
+
+.phases {
+    display: flex;
+    flex-direction: column;
+    padding: 0 56px; 
+}
+
+.phase {
+    display: flex;
+}
+
+
+.roadmap-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.phases-row {
+    display: flex;
+    flex-direction: column;
+}

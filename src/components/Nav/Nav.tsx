@@ -1,41 +1,34 @@
 import React from 'react';
-import styles from './Nav.module.css';
-import logo from '../../logo.svg';
-import * as data from './links.json';
-const linksString = JSON.stringify(data);
-const links = JSON.parse(linksString).links;
-
-type Link = {
-  label: string;
-  href: string;
-}
-
-const Links: React.FC<{ links: Link[] }> = ({ links }) => {
-  return (
-    <div className={styles['links-container']}>
-      {links.map((link: Link) => {
-        return (
-          <div key={link.href} className={styles['link']}>
-            <a href={link.href}>
-              {link.label}
-            </a>
-          </div>
-        )
-      })}
-    </div>
-  )
-}
+import { useState } from "react"
+import './Nav.css';
+import menuIcon from '../../assets/icons/menu.svg';
 
 const Nav: React.FC<{}> = () => {
+  const [isNavExpanded, setIsNavExpanded] = useState(false)
   return (
-    <nav className={styles.navbar}>
-        <div className={styles['logo-container']}>
-          <a href='/'>
-            <img src={logo} className={styles['logo']} alt="logo"></img>
-          </a>
+    <html lang="en">
+    <head>
+      <meta charSet="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+      <meta name="author" content="Jiwon Shin" />
+      <title>Navigation bar</title>
+    </head>
+    <body>
+      <nav className="navbar">
+        <a href="/" className="logo">Chipy</a>
+        <button className="menu-button" onClick={() => {setIsNavExpanded(!isNavExpanded)}}>
+          <img src={menuIcon} className="menuIcon" alt="menu" />
+        </button>
+        <div className={isNavExpanded ? "nav-menu expanded" : "nav-menu"}>
+          <ul>
+            <li><a href="/collection">Collection</a></li>
+            <li><a href="/about-us">About Us</a></li>
+          </ul>
         </div>
-        <Links links={links} />
-    </nav>
+      </nav>
+    </body>
+    </html>
   )
 }
 
