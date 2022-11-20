@@ -110,11 +110,7 @@ code {
     margin-top: 16px;
   }
 
-
-
 [class*="col-"] {
-  float: left;
-  padding: 15px;
   border: 1px solid red;
 }
 
@@ -127,12 +123,6 @@ code {
 img {
   max-width: 100%;
   height: auto;
-}
-
-
-section {
-  /* max-width: 900px; */
-  padding: 80px 240px;
 }
 
 .yellow-font {
