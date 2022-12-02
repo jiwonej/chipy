@@ -10,11 +10,11 @@
 }
 
 .button:hover {
-    background: #96DDF3;
+    background: #8fe2fc;
 }
 
 .button:active {
-    background: #96DDF3;
+    background: #8fe2fc;
     box-shadow: 0 2px 0 #65A1B4;
     transform: translateY(2px);
 }
@@ -23,4 +23,25 @@
     font-size: 16px;
     font-weight: 700;
     color: black;
+}
+
+
+@media screen and (max-width: 576px) {
+    .button {
+        width: 112px;
+        height: 56px;
+        padding: 4px 8px;
+    }
+
+    .button-text {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .button {
+        width: 144px;
+        height: 56px;
+        padding: 4px 8px;
+    }
 }
