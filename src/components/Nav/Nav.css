@@ -78,6 +78,10 @@
         /* increases the surface area of the anchor tag to span more than just the anchor text */
         display: block;
       }
+
+      .nav-menu.expanded a:hover {
+        color: #FFE922;
+    }
   }
 
 /* Large devices (desktops, 992px and up) */

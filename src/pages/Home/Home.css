@@ -104,6 +104,10 @@ h1 {
         align-items: center;
 
     }
+
+    .margin-bottom {
+        margin-bottom: 8px;
+    }
 }
 
 /* Tablets  */
@@ -154,7 +158,18 @@ h1 {
 
     .flex-column {
         align-items: center;
+    }
 
+    .margin-bottom {
+        margin-bottom: 8px;
+    }
+
+    .phase-container img {
+        max-width: 220px;
+    }
+
+    .profile-img {
+        max-height: 260px;
     }
 }
 
@@ -183,7 +198,15 @@ h1 {
         padding-top: 0;
     }
 
+    .phase-container {
+        max-height: 300px;
+    }
+
     .phase-container img {
         max-width: 33.33%;
+    }
+
+    .margin-bottom {
+        margin-bottom: 48px;
     }
 }

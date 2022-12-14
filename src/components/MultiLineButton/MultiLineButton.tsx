@@ -1,7 +1,9 @@
 import React from 'react'
 import styles from './MultiLineButton.module.css';
 
-const MultiLineButton: React.FC<{ text: String[] }> = ({ text }) => {
+// React.MouseEventHandler<HTMLButtonElement>
+
+const MultiLineButton: React.FC<{ text: String[]}> = ({ text }) => {
   return (
     <button className={styles.button}>
       <div className={styles['button-text']}>

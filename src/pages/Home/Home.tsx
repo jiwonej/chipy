@@ -18,7 +18,7 @@ const Home: React.FC<{}> = () => {
   <body>
     <section>
       <div className="flex-container flex-padding center">
-        <img src={profile} alt="Chipy's profile"></img>
+        <img src={profile} className="profile-img" alt="Chipy's profile"></img>
         <div className="text-container top-padding">
           <p className="intro">
             Unlock your inner child with Chipy
@@ -33,7 +33,7 @@ const Home: React.FC<{}> = () => {
     <section className="black">
       <div className="flex-container flex-padding flex-column">
         <h1>ROADMAP</h1>
-        <h2 className="yellow-font">: evolution of Chipy</h2>
+        <h2 className="yellow-font margin-bottom">: evolution of Chipy</h2>
         <div className="phase-container">
           <img src={egg} alt="Chipy's egg"></img>
           <div className="text-container">

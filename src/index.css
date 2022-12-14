@@ -85,7 +85,7 @@ code {
 
   /* For desktop: */
   h1 {
-    font-size: 56px;
+    font-size: 42px;
     font-weight: 700;
     letter-spacing: .12em;
     color: white;
@@ -135,4 +135,8 @@ img {
 
 .white-font {
   color: white;
+}
+
+.purple-font {
+  color: #500DA5;
 }
