@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/chipy/static/css/main.8e76f896.css",
-    "main.js": "/chipy/static/js/main.6e56cb4b.js",
-    "static/js/787.d6861264.chunk.js": "/chipy/static/js/787.d6861264.chunk.js",
-    "static/media/chipy-alter-ego.svg": "/chipy/static/media/chipy-alter-ego.c2765535713385496b8b9985471d02d9.svg",
-    "static/media/chipy-profile.svg": "/chipy/static/media/chipy-profile.0d1ceaa60a0b3695b354492ae97bc497.svg",
-    "static/media/chipy1.png": "/chipy/static/media/chipy1.72ebec13123f73a9a2d5.png",
-    "static/media/chipy2.png": "/chipy/static/media/chipy2.0a238941ccf6ac8618fc.png",
-    "static/media/chipy-coming-soon.png": "/chipy/static/media/chipy-coming-soon.4cebbc8e9dc91625e58e.png",
-    "static/media/chipy3.png": "/chipy/static/media/chipy3.0163776cd0e59173aec7.png",
-    "static/media/market.svg": "/chipy/static/media/market.92130e54b80c7dc77903149f34169ad3.svg",
-    "static/media/egg.svg": "/chipy/static/media/egg.2c963657267069a471ece7345e37ea5b.svg",
-    "index.html": "/chipy/index.html",
-    "static/media/menu.svg": "/chipy/static/media/menu.c33e14ae8e5132f4045e001fe32aa2eb.svg",
-    "main.8e76f896.css.map": "/chipy/static/css/main.8e76f896.css.map",
-    "main.6e56cb4b.js.map": "/chipy/static/js/main.6e56cb4b.js.map",
-    "787.d6861264.chunk.js.map": "/chipy/static/js/787.d6861264.chunk.js.map"
+    "main.css": "./static/css/main.8e76f896.css",
+    "main.js": "./static/js/main.9cbf6f92.js",
+    "static/js/787.d6861264.chunk.js": "./static/js/787.d6861264.chunk.js",
+    "static/media/chipy-alter-ego.svg": "./static/media/chipy-alter-ego.c2765535713385496b8b9985471d02d9.svg",
+    "static/media/chipy-profile.svg": "./static/media/chipy-profile.0d1ceaa60a0b3695b354492ae97bc497.svg",
+    "static/media/chipy1.png": "./static/media/chipy1.72ebec13123f73a9a2d5.png",
+    "static/media/chipy2.png": "./static/media/chipy2.0a238941ccf6ac8618fc.png",
+    "static/media/chipy-coming-soon.png": "./static/media/chipy-coming-soon.4cebbc8e9dc91625e58e.png",
+    "static/media/chipy3.png": "./static/media/chipy3.0163776cd0e59173aec7.png",
+    "static/media/market.svg": "./static/media/market.92130e54b80c7dc77903149f34169ad3.svg",
+    "static/media/egg.svg": "./static/media/egg.2c963657267069a471ece7345e37ea5b.svg",
+    "index.html": "./index.html",
+    "static/media/menu.svg": "./static/media/menu.c33e14ae8e5132f4045e001fe32aa2eb.svg",
+    "main.8e76f896.css.map": "./static/css/main.8e76f896.css.map",
+    "main.9cbf6f92.js.map": "./static/js/main.9cbf6f92.js.map",
+    "787.d6861264.chunk.js.map": "./static/js/787.d6861264.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8e76f896.css",
-    "static/js/main.6e56cb4b.js"
+    "static/js/main.9cbf6f92.js"
   ]
 }
